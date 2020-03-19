@@ -1,0 +1,50 @@
+
+h1 {
+    font-
+}
+
+p {
+    
+}
+
+.container {
+    padding: 25px;
+    margin-top: 25px;
+    border: 2px;
+    border-color: white;
+    border-style: double;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.portfolio {
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn {
+    padding:3px;
+    margin: 3px;
+}
+
+.card {
+    margin: 5px 5px 5px 5px;
+    padding: 2px 2px 2px 2px;
+}
+
+.col-lg-12 {
+    margin: 0px 5px 0px 5px;
+    padding: 0px 5px 0px 5px;
+}
+
+
