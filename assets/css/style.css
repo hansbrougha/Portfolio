@@ -1,33 +1,36 @@
 
 h1 {
-    color: white;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin 1px;
+    border: 2px;
+    border-color: white;
 }
 
-p {
+p { 
+    color: white;
     
 }
 
-img {
-    border: 2px;
-    border color: white;
-}
-
 body {
-    background-color: teal;
+    background-color: black;
 }
 
 .container {
-    padding: 20px;
+    padding: 10px;
     margin-top: 5px;
-    border: 2px;
+    border: 4px;
     border-color: white;
-    border-style: double;
+    border-style: solid;
     border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: red;
 }
+
 
 .portfolio {
     margin: 10px;
