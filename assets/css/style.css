@@ -3,10 +3,7 @@ h1 {
     color: white;
     background-color: blue;
     border-radius: 25px;
-    padding: 10px;
-    margin 1px;
-    border: 2px;
-    border-color: white;
+    padding: 5px;
 }
 
 p { 
