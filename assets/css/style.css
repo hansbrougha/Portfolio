@@ -4,12 +4,11 @@ h1, p {
     flex-wrap: wrap;
 }
 
-
-
 body {
     background-color: white;
 }
 
+/* Added Page Style to Container Class */
 .container {
     padding: 10px;
     margin-top: 5px;
@@ -21,17 +20,13 @@ body {
     background-color: red;
 }
 
+/* Button Style */
 .btn {
     padding:3px;
     margin: 3px;
     border: 2px;
     border-color: white;
 }
-
-#image {
-    float: left;
-}
-
 
 .d-flex {
     flex-wrap: wrap;
