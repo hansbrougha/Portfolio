@@ -1,6 +1,7 @@
 
 h1, p {
     color: white;
+    flex-wrap: wrap;
 }
 
 
