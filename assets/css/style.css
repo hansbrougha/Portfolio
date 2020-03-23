@@ -1,12 +1,9 @@
 
-h1 {
+h1, p {
     color: white;
 }
 
-p { 
-    color: white;
-    
-}
+
 
 body {
     background-color: white;
@@ -15,18 +12,12 @@ body {
 .container {
     padding: 10px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-radius: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: red;
-}
-
-
-.portfolio {
-    margin: 10px;
-    padding: 10px;
 }
 
 .btn {
@@ -36,10 +27,7 @@ body {
     border-color: white;
 }
 
-.card {
-    margin: 5px 5px 5px 5px;
-    padding: 2px 2px 2px 2px;
-}
+
 
 .d-flex {
     flex-wrap: wrap;
