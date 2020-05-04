@@ -1,32 +1,50 @@
-
-h1, p {
-    color: white;
-    flex-wrap: wrap;
+h1,
+p {
+  color: black;
+  flex-wrap: wrap;
 }
 
 body {
-    background-color: white;
+  background-image: linear-gradient(-90deg, rgb(0, 255, 179), rgb(0, 217, 255));
 }
 
 /* Added Page Style to Container Class */
 .container {
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Button Style */
 .btn {
-    padding:3px;
-    margin: 3px;
-    border: 2px;
-    border-color: white;
+  padding: 3px;
+  margin: 3px;
+  border: 2px;
+  border-color: white;
+  transition-duration: 0.4s;
 }
 
 .d-flex {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.TextWrap {
+  float: left;
+  margin: 10px;
+}
+
+#grad {
+  background-image: linear-gradient(-90deg, rgb(0, 217, 255), rgb(0, 255, 179));
+}
+
+#grad2 {
+  background-image: linear-gradient(-90deg, rgb(0, 255, 179), rgb(0, 217, 255));
+}
+
+button:hover {
+  background-image: linear-gradient(-90deg, rgb(0, 255, 179), rgb(0, 217, 255));
 }
