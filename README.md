@@ -13,3 +13,5 @@ The contact page was relatively simple. Inserted a form from bootstrap. This was
 Portfolio page was challenging, but the I managed to make the images responsive.
 
 I added an external stylesheet for a consistent style across each page but relied more heavily on bootstrap for page structure an colors.
+
+https://hansbrougha.github.io/Portfolio/
