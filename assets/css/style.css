@@ -4,6 +4,11 @@ p {
   flex-wrap: wrap;
 }
 
+h4 {
+  margin: 0 auto;
+  justify-content: center;
+}
+
 body {
   background-image: linear-gradient(-90deg, rgb(0, 255, 179), rgb(0, 217, 255));
 }
@@ -17,6 +22,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border-width: 1px;
 }
 
 /* Button Style */
