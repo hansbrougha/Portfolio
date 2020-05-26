@@ -1,56 +1,81 @@
+body {
+  background-color: black;
+}
+
+form {
+  margin: 10px;
+  padding: 20px;
+}
+
+.form-control {
+  margin: 5px;
+}
+
+.header {
+  background-image: ("background.png");
+  background-size: cover;
+}
+
+.jumbotron {
+  background-color: black;
+}
+
 h1,
 p {
-  color: black;
-  flex-wrap: wrap;
+  text-align: center;
+  color: white;
 }
 
-h4 {
-  margin: 0 auto;
-  justify-content: center;
-}
-
-body {
-  background-image: linear-gradient(-90deg, rgb(0, 255, 179), rgb(0, 217, 255));
-}
-
-/* Added Page Style to Container Class */
-.container {
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 25px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  border-width: 1px;
-}
-
-/* Button Style */
-.btn {
-  padding: 3px;
-  margin: 3px;
-  border: 2px;
+.headline {
+  border-style: solid;
+  border-width: 2px;
   border-color: white;
-  transition-duration: 0.4s;
+  border-radius: 25px;
+  height: 150px;
+  margin-bottom: 50px;
+  background-color: black;
 }
 
-.d-flex {
-  flex-wrap: wrap;
+.portfolio {
+  margin: 0 auto;
 }
 
-.TextWrap {
-  float: left;
+.mvp {
+  height: 300px;
+  width: 600px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  align-content: center;
+}
+
+.profile {
+  align-content: center;
+}
+
+section {
   margin: 10px;
 }
 
-#grad {
-  background-image: linear-gradient(-90deg, rgb(0, 217, 255), rgb(0, 255, 179));
+.fab,
+.fas {
+  font-size: 100px;
+  text-align: center;
 }
 
-#grad2 {
-  background-image: linear-gradient(-90deg, rgb(0, 255, 179), rgb(0, 217, 255));
+.card {
+  margin: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
-button:hover {
-  background-image: linear-gradient(-90deg, rgb(0, 255, 179), rgb(0, 217, 255));
+img {
+  padding-top: 10px;
+}
+
+.card-header {
+  color: white;
+  text-align: center;
+  font-size: 25px;
 }

@@ -1,116 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Contact</title>
-</head>
-<body>
-  <!--Full Page in Container-->
-  <section id="grad" class="container">
-    <!--Navigation Bar-->
-    <nav
-      id="grad2"
-      class="container navbar navbar-expand-lg navbar-light bg-light"
-    >
-      <h2 class="navbar-brand text-dark">Andrew Hansbrough</h2>
-      <button
-        class="navbar-toggler btn-info"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <section class="row collapse navbar-collapse d-print" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <!--Home Button-->
-            <button id="grad" type="button" class="btn">
-              <a class="nav-link text-dark" href="index.html"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </button>
-          </li>
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-          <li class="nav-item">
-            <!--Portfolio Button-->
-            <button id="grad" type="button" class="btn">
-              <a class="nav-link text-dark" href="portfolio.html"
-                >Portfolio</a
-              >
-            </button>
-          </li>
-          <li class="nav-item">
-            <!--Contact Button-->
-            <button id="grad" type="button" class="btn">
-              <a class="nav-link text-dark" href="contact.html">Contact</a>
-            </button>
-          </li>
-        </ul>
-      </section>
-    </nav>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
 
-    <!-- Contact Form Container -->
-<section id="grad" class="d-flex row container">
-    <div class="col-xs-12 col-sm-10 col-md-8 col-lg-4 text-dark">
-    <!--Contact Form-->
-    <form>
-      <h1>Contact Form</h1>
-
-      <!--User Name-->
-      <section class="form-group">
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-        <label for="exampleFormControlTextarea1">Name:</label>
-      </section>
-
-      <!--User Email-->
-      <section class="form-group">
-        
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <label for="exampleInputEmail1">Email Address</label>
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </section>
-    
+    <script
+      src="https://kit.fontawesome.com/6c7f0bc29f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Jumbotron / Nav-->
+    <div class="jumbotron jumbotron-fluid header">
+      <div class="container">
+        <div class="headline">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+              <h1 class="display-3 text-light">Andrew Hansbrough</h1>
+              <p class="lead">Full-Stack Developer | Libraries & Archives</p>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+      </div>
+      <nav class="nav justify-content-center bg-light">
+        <a class="nav-link text-dark" href="index.html">Home</a>
+        <a class="nav-link text-dark" href="contact.html">Contact</a>
+        <a class="nav-link text-dark" href="portfolio.html">Portfolio</a>
+      </nav>
     </div>
-      <div class="col-xs-12 col-sm-10 col-md-8 col-lg-4 text-dark">
-      <!--User Message-->
-      <section class="form-group">
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-        <label for="exampleFormControlTextarea1">Message</label>
+    <!--Contact-->
+
+    <!--TEST-->
+    <div class="row">
+      <div class="col-1"></div>
+      <section class="col-10">
+        <div class="card profile bg-light">
+          <div class="card-header bg-secondary">
+            Contact Me
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-8">
+                <form>
+                  <div class="form-row">
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Organization"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Message"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn btn-secondary btn-lg btn-block"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+              <div class="col-2"></div>
+            </div>
+          </div>
+        </div>
       </section>
-
-      <!--Submit Form-->
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+      <div class="col-1"></div>
     </div>
-  </section>
 
-    <!--Page Footer-->
-    <footer id="grad2" class="container d-flex bg-light">
-      <p class="text-dark">Andrew Hansbrough | Copyright © 2020</p>
+    <footer>
+      <div class="header jumbotron jumbotron-fluid">
+        <div class="container">
+          <p class="text-light">Andrew Hansbrough | Copyright © 2020</p>
+        </div>
+      </div>
     </footer>
-  </section>
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"
-  ></script>
-</body>
-</html>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
