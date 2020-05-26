@@ -11,8 +11,8 @@ form {
   margin: 5px;
 }
 
-.header {
-  background-image: ("background.png");
+.imghead {
+  background-image: url("background.png");
   background-size: cover;
 }
 
