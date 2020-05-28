@@ -79,3 +79,12 @@ img {
   text-align: center;
   font-size: 25px;
 }
+
+.icon {
+  text-align: center;
+  display: inline-block;
+}
+
+.carousel-item {
+  height: 80%;
+}
