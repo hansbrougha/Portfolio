@@ -28,51 +28,59 @@
     ></script>
   </head>
   <body>
+    <div class="parallax">
     <!--Jumbotron / Nav-->
     <div class="jumbotron jumbotron-fluid imghead">
       <div class="container">
-        <div class="headline">
-          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-              <h1 class="display-3 text-light">Andrew Hansbrough</h1>
-              <p class="lead">Full-Stack Developer | Libraries & Archives</p>
-            </div>
-            <div class="col-2"></div>
-          </div>
+        <div class="row">
+          <section class="col-12">
+            <div class="card profile bg-transparent">
+              <div class="card-header bg-transparent">
+                <div class="header-shadow" >
+                <h1>Andrew Hansbrough</h1>
+                    <small>
+                    <p>Full-Stack Developer | Libraries & Archives</p>
+                  </small>
+                  
+                </div>
+              </div>
+            </div>  
+          </section>
+          
         </div>
       </div>
-      <nav class="nav justify-content-center bg-light">
-        <a class="nav-link text-dark" href="index.html">Home</a>
-        <a class="nav-link text-dark" href="contact.html">Contact</a>
-        <a class="nav-link text-dark" href="portfolio.html">Portfolio</a>
+      <nav class="nav justify-content-center bg-transparent">
+        <a class="nav-link text-light btn dark-shadow bg-dark" type="button" href="index.html">Home</a>
+        <a class="nav-link text-light btn dark-shadow bg-dark" type="button" href="contact.html">Contact</a>
+        <a class="nav-link text-light btn dark-shadow bg-dark" type="button" href="portfolio.html">Portfolio</a>
       </nav>
+    </div>
+    <div class="card-header" style="margin-bottom: 20px;">
+      Professional Portfolio
     </div>
 
     <!--Portfolio-->
     <div class="row">
       <div class="col-1"></div>
       <section class="col-10 portfolio">
-        <div class="card profile bg-light">
-          <div class="card-header bg-secondary">
-            Portfolio
-          </div>
+        <div class="card profile bg-transparent">
+          
           <div class="card-body">
             <div class="row">
               <div
                 class="card col-xs-12 col-sm-10 col-md-6 col-lg-3"
                 style="width: 18rem;"
               >
-                <div class="card-header text-dark">
+                <div class="card-header text-light">
                   Day-Planner
                 </div>
                 <img
                   class="card-img-top"
-                  src="day-planner.png"
+                  src="/assets/images/day-planner.png"
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <p class="text-dark">
+                  <p class="text-light">
                     Keep track of your daily tasks by the hour, 9am to 6pm.
                   </p>
                   <a
@@ -100,16 +108,16 @@
                 class="card col-xs-12 col-sm-10 col-md-6 col-lg-3"
                 style="width: 18rem;"
               >
-                <div class="card-header text-dark">
+                <div class="card-header text-light">
                   README Generator
                 </div>
                 <img
                   class="card-img-top"
-                  src="readme-generator.jpg"
+                  src="/assets/images/readme-generator.jpg"
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <p class="text-dark">
+                  <p class="text-light">
                     Create a simple README file using node.
                   </p>
                   <a type="button" class="btn btn-primary btn-lg btn-block" href="https://drive.google.com/file/d/1HvSmXTZ5f1rFzZLGE-rr7nxVSc1eTulW/view?usp=sharing" target="_blank">
@@ -132,8 +140,194 @@
                 class="card col-xs-12 col-sm-10 col-md-6 col-lg-3"
                 style="width: 18rem;"
               >
-                <div class="card-header text-dark">
+                <div class="card-header text-light">
                   Team Generator
+                </div>
+                <img
+                  class="card-img-top"
+                  src="/assets/images/team-generator.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="text-light">
+                    Select from Manager, Engineer, or Intern and build your
+                      team.
+                  </p>
+                  <a type="button" class="btn btn-primary btn-lg btn-block" href="https://drive.google.com/file/d/14mlpH2GohcTOs0PX6XH-SLB-2XaH9Hlv/view?usp=sharing" target="_blank">
+                    Github Demo
+                  </a>
+                  <a
+                    type="button"
+                    class="btn btn-info btn-lg btn-block"
+                    href="https://github.com/hansbrougha/team-generator"
+                    target="_blank"
+                  >
+                    Github Repository
+                  </a>
+                  <img
+                    src="https://img.shields.io/badge/ES6-nodejs-yellowgreen"
+                  />
+                  <img
+                        src="https://img.shields.io/npm/l/inquirer?style=flat-square"
+                      />
+                    </li>
+                  
+                </div>
+              </div>
+              <div
+                class="card col-xs-12 col-sm-10 col-md-6 col-lg-3"
+                style="width: 18rem;"
+              >
+                <div class="card-header text-light">
+                  Note Taker
+                </div>
+                <img
+                  class="card-img-top"
+                  src="/assets/images/note-taker.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="text-light">
+                    Take Notes. Save Notes. Get Notes.
+                  </p>
+                  <a type="button" class="btn btn-primary btn-lg btn-block" href="https://shielded-scrubland-20609.herokuapp.com/" target="_blank">
+                    Heroku Demo
+                  </a>
+                  <a
+                    type="button"
+                    class="btn btn-info btn-lg btn-block"
+                    href="https://github.com/hansbrougha/note-taker"
+                    target="_blank"
+                  >
+                    Github Repository
+                  </a>
+                  <img
+                    src="https://img.shields.io/badge/ES6-nodejs-yellowgreen"
+                  />
+                  <img
+                        src="https://img.shields.io/npm/l/inquirer?style=flat-square"
+                      />
+                    </li>
+                  
+                </div>
+              </div>
+              <div
+                class="card col-xs-12 col-sm-10 col-md-6 col-lg-3"
+                style="width: 18rem;"
+              >
+                <div class="card-header text-light">
+                  Eat-Da-Burger
+                </div>
+                <img
+                  class="card-img-top"
+                  src="/assets/images/burger.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="text-light">
+                    Order a burger, eat a burger. It's that simple!
+                  </p>
+                  <a type="button" class="btn btn-primary btn-lg btn-block" href="https://eat-da-burger-ah.herokuapp.com/" target="_blank">
+                    Heroku Demo
+                  </a>
+                  <a
+                    type="button"
+                    class="btn btn-info btn-lg btn-block"
+                    href="https://github.com/hansbrougha/eat-da-burger"
+                    target="_blank"
+                  >
+                    Github Repository
+                  </a>
+                  <img
+                    src="https://img.shields.io/badge/ES6-nodejs-yellowgreen"
+                  />
+                  <img
+                        src="https://img.shields.io/npm/l/inquirer?style=flat-square"
+                      />
+                    </li>
+                  
+                </div>
+              </div>
+              <div
+                class="card col-xs-12 col-sm-10 col-md-6 col-lg-3"
+                style="width: 18rem;"
+              >
+                <div class="card-header text-light">
+                  Employee Tracker
+                </div>
+                <img
+                  class="card-img-top"
+                  src="/assets/images/employee-tracker.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="text-light">
+                    Add, Edit, Delete: Employees, Roles, Departments using NodeJS.
+                  </p>
+                  <a type="button" class="btn btn-primary btn-lg btn-block" href="https://drive.google.com/file/d/14mlpH2GohcTOs0PX6XH-SLB-2XaH9Hlv/view?usp=sharing" target="_blank">
+                    Github Demo
+                  </a>
+                  <a
+                    type="button"
+                    class="btn btn-info btn-lg btn-block"
+                    href="https://github.com/hansbrougha/employee-tracker"
+                    target="_blank"
+                  >
+                    Github Repository
+                  </a>
+                  <img
+                    src="https://img.shields.io/badge/ES6-nodejs-yellowgreen"
+                  />
+                  <img
+                        src="https://img.shields.io/npm/l/inquirer?style=flat-square"
+                      />
+                    </li>
+                  
+                </div>
+              </div>
+              <div
+                class="card col-xs-12 col-sm-10 col-md-6 col-lg-3"
+                style="width: 18rem;"
+              >
+                <div class="card-header text-light">
+                  Project You
+                </div>
+                <img
+                  class="card-img-top"
+                  src="projectyou.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <p class="text-light">
+                    Log sleep, fluid-intake, and exercise.
+                  </p>
+                  <a type="button" class="btn btn-primary btn-lg btn-block" href="https://projectyou.herokuapp.com/" target="_blank">
+                    Heroku Demo
+                  </a>
+                  <a
+                    type="button"
+                    class="btn btn-info btn-lg btn-block"
+                    href="https://github.com/hansbrougha/projectYOU"
+                    target="_blank"
+                  >
+                    Github Repository
+                  </a>
+                  <img
+                    src="https://img.shields.io/badge/ES6-nodejs-yellowgreen"
+                  />
+                  <img
+                        src="https://img.shields.io/npm/l/inquirer?style=flat-square"
+                      />
+                    </li>
+                  
+                </div>
+              </div>
+              <div
+                class="card col-xs-12 col-sm-10 col-md-6 col-lg-3"
+                style="width: 18rem;"
+              >
+                <div class="card-header text-light">
+                  Next Project!
                 </div>
                 <img
                   class="card-img-top"
@@ -141,12 +335,11 @@
                   alt="Card image cap"
                 />
                 <div class="card-body">
-                  <p class="text-dark">
-                    Select from Manager, Engineer, or Intern and build your
-                      team.
+                  <p class="text-light">
+                    Placeholder for next assignment.
                   </p>
                   <a type="button" class="btn btn-primary btn-lg btn-block" href="https://drive.google.com/file/d/14mlpH2GohcTOs0PX6XH-SLB-2XaH9Hlv/view?usp=sharing" target="_blank">
-                    Github Demo
+                    Heroku Demo
                   </a>
                   <a
                     type="button"
@@ -172,6 +365,7 @@
       </section>
       <div class="col-1"></div>
     </div>
+  </div>
     <footer>
       <div class="header jumbotron jumbotron-fluid">
         <div class="container">

@@ -29,90 +29,181 @@
   </head>
   <body>
     <!--Jumbotron / Nav-->
-    <div class="jumbotron jumbotron-fluid imghead">
-      <div class="container">
-        <div class="headline">
+    <div class="parallax">
+      <div class="jumbotron jumbotron-fluid imghead">
+        <div class="container">
           <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-              <h1 class="display-3 text-light">Andrew Hansbrough</h1>
-              <p class="lead">Full-Stack Developer | Libraries & Archives</p>
-            </div>
-            <div class="col-2"></div>
-          </div>
-        </div>
-      </div>
-      <nav class="nav justify-content-center bg-light">
-        <a class="nav-link text-dark" href="index.html">Home</a>
-        <a class="nav-link text-dark" href="contact.html">Contact</a>
-        <a class="nav-link text-dark" href="portfolio.html">Portfolio</a>
-      </nav>
-    </div>
-    <!--Contact-->
-
-    <!--TEST-->
-    <div class="row">
-      <div class="col-1"></div>
-      <section class="col-10">
-        <div class="card profile bg-light">
-          <div class="card-header bg-secondary">
-            Contact Me
-          </div>
-          <div class="card-body">
-            <div class="row">
-              <div class="col-2"></div>
-              <div class="col-8">
-                <form>
-                  <div class="form-row">
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Name"
-                      />
-                    </div>
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Email"
-                      />
-                    </div>
+            <section class="col-12">
+              <div class="card profile bg-transparent">
+                <div class="card-header bg-transparent">
+                  <div class="header-shadow">
+                    <h1>Andrew Hansbrough</h1>
+                    <small>
+                      <p>Full-Stack Developer | Libraries & Archives</p>
+                    </small>
                   </div>
-                  <div class="form-row">
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Organization"
-                      />
-                    </div>
-                  </div>
-                  <div class="form-row">
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Message"
-                      />
-                    </div>
-                  </div>
-                  <button
-                    type="submit"
-                    class="btn btn-secondary btn-lg btn-block"
-                  >
-                    Submit
-                  </button>
-                </form>
+                </div>
               </div>
-              <div class="col-2"></div>
+            </section>
+          </div>
+        </div>
+        <nav class="nav justify-content-center bg-transparent">
+          <a
+            class="nav-link text-light btn dark-shadow bg-dark"
+            type="button"
+            href="index.html"
+            >Home</a
+          >
+          <a
+            class="nav-link text-light btn dark-shadow bg-dark"
+            type="button"
+            href="contact.html"
+            >Contact</a
+          >
+          <a
+            class="nav-link text-light btn dark-shadow bg-dark"
+            type="button"
+            href="portfolio.html"
+            >Portfolio</a
+          >
+        </nav>
+      </div>
+
+      <!--TEST-->
+      <div class="card-header" style="margin-bottom: 20px;">
+        Let's Connect!
+      </div>
+      <div class="row">
+        <div class="col-1"></div>
+        <section class="col-12">
+          <div class="card profile bg-transparent header-shadow">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-12">
+                  <div class="row d-flex justify-content-center icon">
+                    <div class="col-3">
+                      <a
+                        href="https://www.instagram.com/marrsoundarchives"
+                        target="_blank"
+                      >
+                        <h2>
+                          <i
+                            class="fas fa-envelope-open mr-2 contact-icons"
+                          ></i>
+                        </h2>
+                        <h5>Email Me</h5>
+                      </a>
+                    </div>
+
+                    <div class="col-3">
+                      <a
+                        href="https://drive.google.com/file/d/1FnF-P1qLZIP1aEyPf6f0Meht-fbFfoiu/view?usp=sharing"
+                        target="_blank"
+                      >
+                        <h2>
+                          <i class="fas fa-file"></i>
+                        </h2>
+                        <h5>Resume</h5>
+                      </a>
+                    </div>
+                    <div class="col-3 icon">
+                      <a href="https://github.com/hansbrougha" target="_blank">
+                        <h2>
+                          <i class="fab fa-github"></i>
+                        </h2>
+                        <h5>Github</h5>
+                      </a>
+                    </div>
+                    <div class="col-3">
+                      <a
+                        href="https://www.linkedin.com/in/hansbroughandrew/"
+                        target="_blank"
+                      >
+                        <h2>
+                          <i class="fab fa-linkedin"></i>
+                        </h2>
+                        <h5>LinkedIn</h5>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="col-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-12">
+                  <section
+                    class="resume-section p-4 p-lg-5 text-center"
+                    id="contact"
+                  >
+                    <div class="my-auto">
+                      <p>
+                        ...or leave a message below.
+                      </p>
+    
+                      <form
+                        class="contact-form d-flex flex-column align-items-center"
+                        action="https://formspree.io/xrgyayaz"
+                        method="POST"
+                      >
+                        <div class="form-group w-100">
+                          <input
+                            type="name"
+                            class="form-control"
+                            placeholder="Name"
+                            name="name"
+                            required
+                          />
+                        </div>
+                        <div class="form-group w-100">
+                          <input
+                            type="email"
+                            class="form-control"
+                            placeholder="Email"
+                            name="name"
+                            required
+                          />
+                        </div>
+    
+                        <div class="form-group w-100">
+                          <textarea
+                            class="form-control"
+                            type="text"
+                            placeholder="Message"
+                            rows="7"
+                            name="name"
+                            required
+                          ></textarea>
+                        </div>
+    
+                        <button
+                          type="submit"
+                          class="btn btn-submit btn-primary w-100"
+                        >
+                          Submit
+                        </button>
+                      </form>
+                    </div>
+                  </section>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <div class="col-1"></div>
-    </div>
-
+        <div class="col-1"></div>
+      </div>
+      
+      
+      
     <footer>
       <div class="header jumbotron jumbotron-fluid">
         <div class="container">
