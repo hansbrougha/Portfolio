@@ -28,11 +28,11 @@ form {
 }
 
 .imghead {
-  background-image: url("/assets/images/259.jpg");
+  background-image: url("../assets/images/259.jpg");
   background-size: cover;
 }
 .pf-img {
-  background-image: url("/assets/images/12147.jpg");
+  background-image: url("assets/images/12147.jpg");
   background-size: cover;
 }
 
