@@ -6,7 +6,7 @@ p {
 }
 .parallax {
   /* The image used */
-  background-image: url("./assets/images/7150.jpg");
+  background-image: url("images/7150.jpg");
 
   /* Set a specific height */
   min-height: 500px;
@@ -28,11 +28,11 @@ form {
 }
 
 .imghead {
-  background-image: url("../assets/images/259.jpg");
+  background-image: url("../images/259.jpg");
   background-size: cover;
 }
 .pf-img {
-  background-image: url("assets/images/12147.jpg");
+  background-image: url("./images/12147.jpg");
   background-size: cover;
 }
 
